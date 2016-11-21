@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+    <TextView
+      android:id="@+id/ProductNameLabel"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Produkt:"
+      />
+    <EditText
+      android:id="@+id/ProductName"
+      android:enabled="false"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    
+    <TextView
+      android:id="@+id/DescriptionLabel"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Beschreibung:"
+      />
+    <EditText
+      android:id="@+id/Description"
+      android:enabled="false"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    
+    <TextView
+      android:id="@+id/StockLabel"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Lagerbestand:"
+      />
+    <EditText
+      android:id="@+id/Stock"
+      android:enabled="false"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <TextView
+      android:id="@+id/PriceLabel"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Preis:"
+      />
+    <EditText
+      android:id="@+id/Price"
+      android:enabled="false"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/ScanButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:text="@string/Scan"
+      />
+</RelativeLayout>
