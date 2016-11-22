@@ -47,10 +47,8 @@ namespace ShowScan
 
                 return result;
             }
-            catch (Exception err)
+            catch
             {
-                var toast = Toast.MakeText(context, $"{err.GetType().Name}: {err.Message}", ToastLength.Long);
-                toast.Show();
                 return null;
             }
         }
