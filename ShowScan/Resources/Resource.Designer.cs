@@ -64,16 +64,22 @@ namespace ShowScan
 		{
 			
 			// aapt resource value: 0x7f060003
-			public const int Description = 2131099651;
+			public const int Description1 = 2131099651;
 			
 			// aapt resource value: 0x7f060002
-			public const int DescriptionLabel = 2131099650;
+			public const int Description1Label = 2131099650;
 			
-			// aapt resource value: 0x7f060007
-			public const int Price = 2131099655;
+			// aapt resource value: 0x7f060005
+			public const int Description2 = 2131099653;
 			
-			// aapt resource value: 0x7f060006
-			public const int PriceLabel = 2131099654;
+			// aapt resource value: 0x7f060004
+			public const int Description2Label = 2131099652;
+			
+			// aapt resource value: 0x7f060009
+			public const int Price = 2131099657;
+			
+			// aapt resource value: 0x7f060008
+			public const int PriceLabel = 2131099656;
 			
 			// aapt resource value: 0x7f060001
 			public const int ProductName = 2131099649;
@@ -81,17 +87,17 @@ namespace ShowScan
 			// aapt resource value: 0x7f060000
 			public const int ProductNameLabel = 2131099648;
 			
-			// aapt resource value: 0x7f060008
-			public const int ScanButton = 2131099656;
+			// aapt resource value: 0x7f06000a
+			public const int ScanButton = 2131099658;
 			
-			// aapt resource value: 0x7f060005
-			public const int Stock = 2131099653;
+			// aapt resource value: 0x7f060007
+			public const int Stock = 2131099655;
 			
-			// aapt resource value: 0x7f060004
-			public const int StockLabel = 2131099652;
+			// aapt resource value: 0x7f060006
+			public const int StockLabel = 2131099654;
 			
-			// aapt resource value: 0x7f060009
-			public const int contentFrame = 2131099657;
+			// aapt resource value: 0x7f06000b
+			public const int contentFrame = 2131099659;
 			
 			static Id()
 			{

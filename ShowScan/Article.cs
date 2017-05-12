@@ -16,8 +16,8 @@ namespace ShowScan
     public class Article
     {
         public string Code { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string Description1 { get; set; }
+        public string Description2 { get; set; }
         public string Stock { get; set; }
         public decimal Price { get; set; }
 
@@ -39,8 +39,8 @@ namespace ShowScan
                 var result = new Article
                 {
                     Code = parts[0],
-                    Name = parts[1],
-                    Description = parts[2],
+                    Description1 = parts[1],
+                    Description2 = parts[2],
                     Stock = parts[3],
                     Price = price
                 };

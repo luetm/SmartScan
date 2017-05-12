@@ -14,7 +14,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="20dp"
-      android:text="Produkt:"
+      android:text="Artikelnummer:"
       />
     <EditText
       android:id="@+id/ProductName"
@@ -25,14 +25,28 @@
 
     
     <TextView
-      android:id="@+id/DescriptionLabel"
+      android:id="@+id/Description1Label"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="20dp"
-      android:text="Beschreibung:"
+      android:text="Artikelbeschreibung1:"
       />
     <EditText
-      android:id="@+id/Description"
+      android:id="@+id/Description1"
+      android:enabled="false"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+	  
+	  <TextView
+      android:id="@+id/Description2Label"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Artikelbeschreibung2:"
+      />
+    <EditText
+      android:id="@+id/Description2"
       android:enabled="false"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -44,7 +58,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="20dp"
-      android:text="Einheit:"
+      android:text="Verkaufseinheit:"
       />
     <EditText
       android:id="@+id/Stock"

@@ -40,7 +40,8 @@ namespace ShowScan
             try
             {
                 FindViewById<EditText>(Resource.Id.ProductName).Text = string.Empty;
-                FindViewById<EditText>(Resource.Id.Description).Text = string.Empty;
+                FindViewById<EditText>(Resource.Id.Description1).Text = string.Empty; 
+				FindViewById<EditText>(Resource.Id.Description2).Text = string.Empty;
                 FindViewById<EditText>(Resource.Id.Stock).Text = string.Empty;
                 FindViewById<EditText>(Resource.Id.Price).Text = string.Empty;
 
@@ -67,8 +68,9 @@ namespace ShowScan
 
                 _successSound.Start();
                 
-                FindViewById<EditText>(Resource.Id.ProductName).Text = article.Name;
-                FindViewById<EditText>(Resource.Id.Description).Text = article.Description;
+                FindViewById<EditText>(Resource.Id.ProductName).Text = article.Code;
+                FindViewById<EditText>(Resource.Id.Description1).Text = article.Description1;
+				FindViewById<EditText>(Resource.Id.Description2).Text = article.Description2;
                 FindViewById<EditText>(Resource.Id.Stock).Text = article.Stock;
                 FindViewById<EditText>(Resource.Id.Price).Text = article.Price.ToString("N");
             }
